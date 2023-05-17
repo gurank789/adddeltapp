@@ -1,0 +1,107 @@
+ .todo-list {
+    border: 3px solid black; /* add a 1px solid black border */
+    padding: 10px; /* add 10px of padding inside the box */
+    margin-left:28em;width: 30vw ;
+    height: 0 auto ;
+    margin-bottom: 50px;
+    background-color: rgba(244, 244, 239, 0.434);
+    text-shadow: #100f0f;
+    border-radius: 25px;
+  } 
+  .todo-list button{
+    background-color: rgb(220, 220, 219);
+    border: 0.1em solid black;
+    padding: 0.2em;
+    border-radius: 12px;
+    margin-left: 1em;
+  }
+  .todo-list button:hover {
+    background-color: #555453;
+  }
+  .todo-list input{
+    background-color: rgb(247, 246, 243);
+    border: 0.2em solid black;
+    padding: 0.7em;
+    border-radius: 7px;
+    width: 20em;
+  }
+  
+.todo {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  background-color: rgba(142, 142, 39, 0.262);
+  margin: 1px;
+  border: 1px solid black; 
+  padding: 3px; 
+  border-radius: 25px;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  margin-top: 10em;
+  background-color: rgba(248, 248, 244, 0.262);
+  margin: .18em;
+  border: 1px solid black; 
+  padding: .3em; 
+  border-radius: 10em;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: rgb(13, 14, 14);
+  
+}
+
+.todo input[type="checkbox"] {
+ 
+ margin-left:  12px;
+}
+
+.todo button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+}
+
+
+.todo button:hover {
+  background-color: #100f0f;
+  
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: rgb(9, 9, 9);
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.todo button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.todo button:hover {
+  background-color: #100f0f;
+  
+}
